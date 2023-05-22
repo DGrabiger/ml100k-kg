@@ -1,0 +1,108 @@
+@prefix : <http://www.evaluation.de/movies/100k#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.evaluation.de/movies/100k> .
+
+<http://www.evaluation.de/movies/100k> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.evaluation.de/movies/100k#bewertungFür
+:bewertungFür rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.evaluation.de/movies/100k#hatBeruf
+:hatBeruf rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.evaluation.de/movies/100k#hatBewertet
+:hatBewertet rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.evaluation.de/movies/100k#hatGenre
+:hatGenre rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.evaluation.de/movies/100k#hatAlter
+:hatAlter rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:range xsd:integer .
+
+
+###  http://www.evaluation.de/movies/100k#hatGender
+:hatGender rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:range xsd:boolean .
+
+
+###  http://www.evaluation.de/movies/100k#hatWert
+:hatWert rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:range xsd:int .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.evaluation.de/movies/100k#Bewertung
+:Bewertung rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :bewertungFür ;
+                             owl:someValuesFrom :Movie
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hatWert ;
+                             owl:someValuesFrom xsd:integer
+                           ] .
+
+
+###  http://www.evaluation.de/movies/100k#Genre
+:Genre rdf:type owl:Class .
+
+
+###  http://www.evaluation.de/movies/100k#Movie
+:Movie rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :hatGenre ;
+                         owl:someValuesFrom :Genre
+                       ] .
+
+
+###  http://www.evaluation.de/movies/100k#Occupation
+:Occupation rdf:type owl:Class .
+
+
+###  http://www.evaluation.de/movies/100k#User
+:User rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :hatBeruf ;
+                        owl:someValuesFrom :Occupation
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hatBewertet ;
+                        owl:someValuesFrom :Movie
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hatAlter ;
+                        owl:someValuesFrom xsd:integer
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hatGender ;
+                        owl:someValuesFrom xsd:boolean
+                      ] .
+
+
