@@ -12,8 +12,8 @@
 #    Object Properties
 #################################################################
 
-###  http://www.evaluation.de/movies/100k#bewertungFür
-:bewertungFür rdf:type owl:ObjectProperty ;
+###  http://www.evaluation.de/movies/100k#bewertungFuer
+:bewertungFuer rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty .
 
 
@@ -61,7 +61,7 @@
 ###  http://www.evaluation.de/movies/100k#Bewertung
 :Bewertung rdf:type owl:Class ;
            rdfs:subClassOf [ rdf:type owl:Restriction ;
-                             owl:onProperty :bewertungFür ;
+                             owl:onProperty :bewertungFuer ;
                              owl:someValuesFrom :Movie
                            ] ,
                            [ rdf:type owl:Restriction ;
@@ -104,5 +104,4 @@
                         owl:onProperty :hatGender ;
                         owl:someValuesFrom xsd:boolean
                       ] .
-
 
