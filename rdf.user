@@ -1,0 +1,4725 @@
+
+@prefix : <http://www.evaluation.de/movies/100k#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.evaluation.de/movies/100k> .
+
+
+        :user_1 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_2 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_3 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_4 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_5 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_6 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_7 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_8 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_9 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_10 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_lawyer.
+
+    
+        :user_11 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_12 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_13 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_14 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_15 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_16 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_17 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_18 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_19 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_20 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_homemaker.
+
+    
+        :user_21 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_22 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_23 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_24 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_25 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_26 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_27 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_28 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_29 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_30 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_31 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_32 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_33 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_34 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_35 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_homemaker.
+
+    
+        :user_36 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_37 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_38 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_39 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_40 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_41 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_42 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_43 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_44 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_45 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_46 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_47 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_48 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_49 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_50 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_51 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_52 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_53 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_54 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_55 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_56 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_57 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_none.
+
+    
+        :user_58 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_59 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_60 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_61 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_62 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_63 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_64 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_65 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_66 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_67 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_68 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_69 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_70 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_71 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_72 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_73 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_74 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_75 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_76 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_77 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_78 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_79 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_80 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_81 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_82 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_83 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_84 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_85 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_86 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_87 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_88 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_89 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_90 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_91 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_92 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_93 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_94 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_95 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_96 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_97 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_98 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_99 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_100 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_101 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_102 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_103 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_104 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_105 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_106 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_107 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_108 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_109 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_110 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_111 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_112 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_salesman.
+
+    
+        :user_113 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_114 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_115 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_116 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_117 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_118 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_119 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_120 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_121 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_122 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_123 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_124 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_125 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_lawyer.
+
+    
+        :user_126 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_lawyer.
+
+    
+        :user_127 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_none.
+
+    
+        :user_128 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_129 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_130 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_none.
+
+    
+        :user_131 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_132 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_133 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_134 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_135 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_136 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_137 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_138 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_doctor.
+
+    
+        :user_139 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_140 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_141 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_142 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_143 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_144 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_145 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_146 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_147 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_148 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_149 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_150 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_151 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_152 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_153 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_154 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_155 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_156 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_157 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_158 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_159 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_160 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_161 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_lawyer.
+
+    
+        :user_162 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_163 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_164 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_165 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_166 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_167 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_168 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_169 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_170 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_171 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_172 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_173 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_174 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_175 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_176 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_177 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_178 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_179 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_180 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_181 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_182 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_183 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_184 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_185 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_186 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_187 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_188 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_189 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_190 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_191 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_192 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_193 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_194 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_195 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_196 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_197 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_198 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_199 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_200 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_201 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_202 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_203 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_204 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_205 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_lawyer.
+
+    
+        :user_206 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_207 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_208 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_209 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_210 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_211 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_salesman.
+
+    
+        :user_212 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_213 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_214 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_215 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_216 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_217 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_218 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_219 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_220 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_221 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_222 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_223 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_224 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_225 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_226 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_227 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_228 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_229 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_230 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_231 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_232 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_233 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_234 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_235 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_236 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_237 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_238 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_239 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_240 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_241 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_242 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_243 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_244 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_245 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_246 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_247 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_248 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_249 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_250 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_251 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_doctor.
+
+    
+        :user_252 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_253 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_254 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_255 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_256 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_none.
+
+    
+        :user_257 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_258 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_259 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_260 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_261 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_262 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_263 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_264 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_265 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_266 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_267 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_268 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_269 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_270 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_271 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_272 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_273 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_274 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_275 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_276 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_277 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_278 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_279 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_280 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_281 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_282 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_283 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_284 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_285 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_286 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_287 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_salesman.
+
+    
+        :user_288 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_289 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_none.
+
+    
+        :user_290 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_291 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_292 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_293 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_294 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_295 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_296 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_297 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_298 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_299 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_doctor.
+
+    
+        :user_300 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_301 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_302 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_303 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_304 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_305 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_306 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_307 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_308 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_309 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_310 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_311 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_312 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_313 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_314 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_315 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_316 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_317 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_318 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_319 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_320 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_321 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_322 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_323 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_324 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_325 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_326 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_327 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_328 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_329 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_330 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_331 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_332 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_333 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_334 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_335 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_336 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_salesman.
+
+    
+        :user_337 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_338 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_339 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_lawyer.
+
+    
+        :user_340 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_341 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_342 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_343 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_344 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_345 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_346 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_347 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_348 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_349 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_350 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_351 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_352 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_353 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_354 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_355 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_356 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_homemaker.
+
+    
+        :user_357 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_358 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_359 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_360 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_361 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_362 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_homemaker.
+
+    
+        :user_363 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_364 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_365 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_lawyer.
+
+    
+        :user_366 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_367 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_368 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_369 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_370 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_371 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_372 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_373 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_374 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_375 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_376 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_377 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_378 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_379 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_380 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_381 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_382 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_383 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_384 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_385 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_386 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_salesman.
+
+    
+        :user_387 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_388 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_389 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_390 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_391 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_392 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_393 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_394 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_395 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_396 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_397 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_398 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_399 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_400 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_401 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_402 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_403 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_404 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_405 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_406 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_407 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_408 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_409 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_410 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_411 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_412 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_413 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_414 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_415 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_416 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_417 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_418 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_none.
+
+    
+        :user_419 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_lawyer.
+
+    
+        :user_420 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_421 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_422 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_423 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_424 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_425 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_426 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_427 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_doctor.
+
+    
+        :user_428 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_429 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_430 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_431 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_432 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_433 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_434 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_435 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_436 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_437 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_438 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_439 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_440 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_441 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_442 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_443 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_salesman.
+
+    
+        :user_444 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_lawyer.
+
+    
+        :user_445 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_446 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_447 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_448 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_449 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_450 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_451 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_452 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_453 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_454 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_455 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_456 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_457 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_salesman.
+
+    
+        :user_458 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_459 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_460 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_461 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_462 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_463 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_464 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_465 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_466 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_467 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_468 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_469 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_470 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_471 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_472 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_473 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_474 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_475 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_476 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_477 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_478 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_479 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_480 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_481 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_482 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_483 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_484 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_485 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_486 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_487 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_488 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_489 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_490 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_491 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_492 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_493 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_494 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_495 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_496 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_497 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_498 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_499 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_500 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_501 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_502 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_503 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_504 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_505 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_506 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_507 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_508 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_509 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_510 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_511 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_512 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_513 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_514 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_515 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_516 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_517 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_518 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_519 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_520 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_521 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_522 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_523 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_524 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_525 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_526 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_527 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_528 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_529 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_530 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_531 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_salesman.
+
+    
+        :user_532 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_533 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_534 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_535 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_536 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_537 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_538 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_539 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_540 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_541 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_542 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_543 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_544 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_545 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_546 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_547 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_548 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_549 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_550 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_551 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_552 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_553 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_554 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_555 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_556 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_557 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_558 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_559 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_560 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_561 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_562 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_563 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_564 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_565 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_566 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_567 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_568 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_569 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_570 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_571 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_572 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_573 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_574 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_575 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_576 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_577 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_578 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_579 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_580 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_581 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_582 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_583 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_584 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_585 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_586 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_587 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_588 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_589 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_lawyer.
+
+    
+        :user_590 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_591 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_592 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_593 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_594 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_595 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_596 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_597 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_598 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_599 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_600 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_601 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_602 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_603 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_604 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_605 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_606 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_607 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_608 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_609 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_610 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_611 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_612 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_613 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_614 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_615 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_616 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_617 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_618 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_619 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_620 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_621 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_622 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_623 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_624 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_625 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_626 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_627 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_628 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_none.
+
+    
+        :user_629 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_630 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_631 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_632 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_633 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_634 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_635 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_636 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_637 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_638 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_639 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_640 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_641 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_642 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_643 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_644 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_645 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_646 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_647 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_648 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_649 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_650 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_651 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_652 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_653 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_654 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_655 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_656 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_657 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_none.
+
+    
+        :user_658 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_659 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_660 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_661 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_662 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_663 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_664 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_665 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_666 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_667 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_668 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_669 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_670 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_671 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_672 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_673 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_674 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_675 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_676 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_677 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_678 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_679 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_680 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_lawyer.
+
+    
+        :user_681 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_682 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_683 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_684 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_685 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_686 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_687 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_688 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_689 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_690 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_salesman.
+
+    
+        :user_691 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_692 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_693 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_694 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_695 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_696 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_697 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_698 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_699 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_700 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_701 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_702 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_703 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_704 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_705 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_706 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_707 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_708 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_homemaker.
+
+    
+        :user_709 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_710 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_711 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_712 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_713 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_714 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_715 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_716 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_717 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_718 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_719 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_720 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_721 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_722 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_homemaker.
+
+    
+        :user_723 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_724 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_725 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_726 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_727 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_728 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_729 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_730 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_731 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_732 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_733 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_734 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_735 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_736 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_737 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_738 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_739 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_740 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_741 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_742 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_743 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_744 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_745 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_746 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_747 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_748 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_749 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_750 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_751 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_752 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_753 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_salesman.
+
+    
+        :user_754 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_755 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_756 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_none.
+
+    
+        :user_757 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_758 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_759 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_760 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_761 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_762 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_763 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_764 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_765 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_766 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_767 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_768 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_769 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_770 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_771 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_772 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_773 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_774 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_775 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_776 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_777 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_778 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_779 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_780 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_781 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_782 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_783 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_784 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_785 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_786 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_787 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_788 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_789 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_790 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_791 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_792 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_793 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_794 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_795 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_796 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_797 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_798 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_799 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_800 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_801 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_802 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_803 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_804 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_805 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_806 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_807 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_808 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_salesman.
+
+    
+        :user_809 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_810 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_811 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_812 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_813 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_814 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_815 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_816 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_817 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_818 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_819 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_820 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_821 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_822 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_823 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_824 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_825 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_826 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_827 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_828 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_829 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_830 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_831 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_832 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_833 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_834 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_835 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_836 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_837 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_838 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_839 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_840 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_841 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_doctor.
+
+    
+        :user_842 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_843 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_844 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_845 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_doctor.
+
+    
+        :user_846 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_lawyer.
+
+    
+        :user_847 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_848 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_849 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_850 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_851 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_852 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_853 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_854 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_855 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_856 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_857 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_858 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_859 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_860 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_861 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_862 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_863 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_864 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_865 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_866 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_867 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_868 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_869 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_870 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_871 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_872 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_873 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_874 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_875 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_876 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_877 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_878 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_879 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_880 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_881 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_marketing.
+
+    
+        :user_882 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_883 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_884 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_885 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_886 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_887 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_888 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_889 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_890 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_891 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_892 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_893 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_894 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_895 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_896 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_897 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_898 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_homemaker.
+
+    
+        :user_899 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_900 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_retired.
+
+    
+        :user_901 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_executive.
+
+    
+        :user_902 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_903 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_904 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_905 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_906 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_907 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_908 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_909 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_910 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_healthcare.
+
+    
+        :user_911 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_writer.
+
+    
+        :user_912 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_913 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_914 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_915 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_916 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_917 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_918 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_919 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_920 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_artist.
+
+    
+        :user_921 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_922 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_923 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_924 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_925 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_salesman.
+
+    
+        :user_926 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_entertainment.
+
+    
+        :user_927 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_programmer.
+
+    
+        :user_928 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_929 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_930 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_scientist.
+
+    
+        :user_931 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_932 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_933 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_934 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_engineer.
+
+    
+        :user_935 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_doctor.
+
+    
+        :user_936 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_other.
+
+    
+        :user_937 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_educator.
+
+    
+        :user_938 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_technician.
+
+    
+        :user_939 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_940 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_administrator.
+
+    
+        :user_941 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
+        :user_942 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_librarian.
+
+    
+        :user_943 rdf:type owl:NamedIndividual ,
+                :User ;
+            :hatBeruf :occ_student.
+
+    
