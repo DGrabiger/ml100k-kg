@@ -1,0 +1,86 @@
+
+@prefix : <http://www.evaluation.de/movies/100k#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.evaluation.de/movies/100k> .
+
+
+        :genre_unknown rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Action rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Adventure rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Animation rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Children rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Comedy rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Crime rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Documentary rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Drama rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Fantasy rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Film-Noir rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Horror rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Musical rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Mystery rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Romance rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Sci-Fi rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Thriller rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_War rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    
+        :genre_Western rdf:type owl:NamedIndividual ,
+            :Genre .
+
+    

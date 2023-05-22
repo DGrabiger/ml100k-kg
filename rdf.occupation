@@ -1,0 +1,94 @@
+
+@prefix : <http://www.evaluation.de/movies/100k#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.evaluation.de/movies/100k> .
+
+
+        :occ_administrator rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_artist rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_doctor rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_educator rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_engineer rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_entertainment rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_executive rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_healthcare rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_homemaker rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_lawyer rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_librarian rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_marketing rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_none rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_other rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_programmer rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_retired rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_salesman rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_scientist rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_student rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_technician rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
+        :occ_writer rdf:type owl:NamedIndividual ,
+            :Occupation .
+
+    
